@@ -1,4 +1,3 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
+.tb { border-collapse: collapse; }
+.tb th, .tb td { padding: 5px; border: solid 1px #9f9b9b; }
+.tb th { background-color: lightblue; }
