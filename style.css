@@ -1,3 +1,9 @@
 .tb { border-collapse: collapse; }
-.tb th, .tb td { padding: 5px; border: solid 1px #9f9b9b; }
-.tb th { background-color: lightblue; }
+.tb th, .tb td {padding: 5px; border: solid 3px #858282; color: rgb(0, 0, 0); }
+.tb th { background-color: rgb(0, 0, 0);color: aliceblue; }
+tr:nth-child(even) {
+    background-color: #9a9898;
+ }
+ tr:nth-child(odd) {
+   background-color: #c9c4c4;
+}
